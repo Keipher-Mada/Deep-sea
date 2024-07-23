@@ -194,7 +194,7 @@ new Swiper('#projects .swiper-container', {
       gsap.to('.comb-jelly', 0, { display: 'none', delay: 0.7 });
       gsap.to('.angler-fish', 0.5, { scale: 0.9 });
       gsap.to('.angler-fish', 0, { width: '100%', height: '100vh', overflow: 'hidden' });
-      gsap.to('.angler-fish',0,{display:'none',delay:.7});
+      gsap.to('.angler-fish',0,{display:'none',delay: 0.7});
       gsap.to('#about',.5,{scale:.9});
       gsap.to('#about',0,{width:'100%',height:'100vh',overflow:'hidden'});
       gsap.to('#about',0,{display:'none',delay:.7});
