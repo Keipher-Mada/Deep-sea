@@ -255,7 +255,7 @@ new Swiper('#projects .swiper-container', {
       gsap.to('#breaker',0,{display:'none',delay:1.7});
     })
     $('.anglar-close').on('click',function(){
-      gsap.to('.angler-fish',.5,{scale:.9});
+      gsap.to('.angler-fish', 0.5,{scale:0.9});
       gsap.to('.angler-fish', 0, { width: '100%', height: '100vh', overflow: 'hidden' });
       gsap.to('.angler-fish', 0, { display: 'none', delay: 0.7 });
       gsap.to('#home',0,{display:'block',delay:.7})

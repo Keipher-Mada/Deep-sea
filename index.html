@@ -2,10 +2,10 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Deep sea</title>
   
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.1/css/swiper.min.css" integrity="sha256-DBYdrj7BxKM3slMeqBVWX2otx7x4eqoHRJCsSDJ0Nxw=" crossorigin="anonymous"/>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.2.6/gsap.min.js"></script>
     <link rel="stylesheet" href="css/style.css" />
@@ -168,52 +168,56 @@
   </div>
 </div>
 </div>
-      <!-- ABOUT -->
-  <div id="projects">
+<!-- ABOUT -->
+ 
+<div id="projects">
 
 <!-- Anglerfisg section -->
-<div class="project angler-fish">
+      <div class="project angler-fish">
           <div class="navigation navigation-project">
                 
             <div class="logo home-link about-opacity">
              <a href="#"> The Anglerfish</a>
             </div>
-          
-            <div class="navigation-links about-opacity">
+            
+<!-- double navigation close line to make a "x" symbol -->      
+          <div class="navigation-links about-opacity">
              <div class="navigation-close hover anglar-close">
-               <div class="navigation-close-line"></div>
+              <div class="navigation-close-line"></div>
+              <div class="navigation-close-line"></div>
              </div>
-            </div>
-          
+            </div>    
+
           </div>
-          <div class="col-12 p-0 m-0">
-         <div class="slideshow-container">
+            
+         <div class="container-fluid p-0 m-0">
+           <div class="slideshow">
            <div class="slides">
-             <img src="images/Anglerfish/deep-sea-anglerfish.jpg" alt="Anglerfish side profile">
-             <div class="fish-info">
+              <img src="images/Anglerfish/deep-sea-anglerfish.jpg" alt="Anglerfish side profile">
+              <div class="fish-info">
                 <h3>Anglerfish and it's light</h3>
                 <p>Anglerfish have some pretty distinctive features. From their clever lures to sporting red lips, anglerfish know how to blend in and how to stand out.</p>
                 <p>Anglerfish that live in the deep sea have a bioluminescent lure that they use to attract other fish and sea creatures towards them. Once the fish is close enough to the light, the anglerfish then snatches them up with their strong jaws and sharp teeth.</p>
-             </div>
-          </div>
-           <div class="slides">
-            <img src="images/Anglerfish/Gender.jpg" alt="Anglerfish as male and female">
-            <div class="fish-info">
+               </div>     
+           </div>
+            <div class="slides">
+               <img src="images/Anglerfish/Gender.jpg" alt="Anglerfish as male and female">
+              <div class="fish-info">
                 <h3>Gender differnces of the Anglerfish</h3>
                 <p>In some species of anglerfish, the males are tiny, with simplified body features, and they live as parasites on the females. This is thought to be an adaptation to save energy, allowing the females to feed on whatever food is available. The males seem to have evolved for one purpose only: to find a female and deliver sperm.</p>
-             </div>
-          </div>
-         </div>
-        
-         </div>
-         <div class="controls">
+              </div>
+            </div>       
+           </div>
+           </div>
+           
+      <div class="controls">
           <button id ="prev" class="hover"><img src="images/prev.png" alt="" class="imgs"></button>
           <button id ="next" class="hover"><img src="images/next.png" alt="" class="imgs"></button>
-        </div>
-        <div class="project-name">
-          The Anglerfish
-        </div>
-        </div>
+         </div>
+       <div class="project-name">
+        The Anglerfish
+       </div>
+    </div>
 
 <!-- Anglerfisg section -->
 
@@ -233,7 +237,8 @@
     </div>
   
   </div>
-  <div class="col-12 p-0 m-0">
+
+ <div class="container-fluid m-0 p-0">
  <div class="slideshow">
    <div class="jelly-slides">
      <img src="images/Comb jelly/CombJellyanimatedbioluminesence.webp" alt="colorful jelly">
@@ -282,7 +287,8 @@
     </div>
   
   </div>
-  <div class="col-12 p-0 m-0">
+
+ <div class="container-fluid m-0 p-0">
  <div class="slideshow">
    <div class="squid-slides">
      <img src="images/Vampire/tumblr_p4tfhjn8751vjhboso4_500.gif" alt="bioluminescent">
@@ -329,7 +335,7 @@
     </div>
   
   </div>
-  <div class="col-12 p-0 m-0">
+ <div class="container-fluid m-0 p-0">
  <div class="slideshow">
    <div class="eel-slides">
      <img src="images/eel/gulper-eel-dark-deep.jpg" alt="Pellican eel">

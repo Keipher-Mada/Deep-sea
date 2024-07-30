@@ -430,12 +430,13 @@ ul {
 .squid-slides img,
 .eel-slides img,
 .Angla-slides img {
+  position: relative;
   width: auto;
-  max-height: 70vh;
-  position: absolute;
-  margin: auto;
-  pointer-events: none;
-  border-radius: 6px;
+  max-width: 750px;
+  height: 450px;
+  background-position: center;
+  background-size: cover;
+  padding-left: 30px;
 }
 .navigation-project {
   position: absolute;
@@ -456,7 +457,7 @@ ul {
   padding-left: 150px;
   padding-right: 150px;
 }
-.Angler-fish,
+.angler-fish,
 .comb-jelly,
 .vampire-squid,
 .pillican-eel {
@@ -867,7 +868,7 @@ input:valid {
     font-family: brook;
     font-size: 16px;
   }
-  img,
+  .slides img,
   .jelly-slides img,
   .squid-slides img,
   .eel-slides img,
@@ -1100,7 +1101,7 @@ FOR TABLETS
   .eel-slides img,
   .Angla-slides img {
     width: auto;
-    max-width: 95%;
+    max-width: 70%;
     max-height: auto;
     position: absolute;
     margin: auto;
@@ -1133,8 +1134,9 @@ FOR TABLETS
 }
 
 .fish-info {
-  display: relative;
-  width: 700px;
-  margin-right: 700px;
-  color: aliceblue;
+ padding-bottom: 10px;
+ padding-left:30px;
+ padding-right:30px;
+ font-size: 16px;
+ font-weight: 400;
 }
